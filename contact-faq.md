@@ -29,9 +29,9 @@ Share them with the community.
 
 ## Contact
 
-### Email
+### Contact Form
 
-[t.shakthi@gmail.com](mailto:t.shakthi@gmail.com)
+Use the contact form on the [Contact page](/contact) to send a message.
 
 ### LinkedIn
 
@@ -120,7 +120,7 @@ Testing coverage will continue to improve as the project evolves.
 
 ### What if I encounter issues?
 
-Please send an email describing the issue as precisely as possible.
+Please use the contact form on the [Contact page](/contact) and describe the issue as precisely as possible.
 
 Helpful information includes:
 
@@ -130,10 +130,6 @@ Helpful information includes:
 * Screenshots (if available)
 
 Support requests should be related specifically to Haney Coding Agent.
-
-Email:
-
-[t.shakthi@gmail.com](mailto:t.shakthi@gmail.com)
 
 ---
 

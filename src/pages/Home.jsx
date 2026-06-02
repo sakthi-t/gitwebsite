@@ -4,7 +4,7 @@ import './Home.css'
 export default function Home() {
   return (
     <div className="home">
-      <div className="home-hero">
+      <header className="home-hero">
         <pre className="ascii-cat">
 {`  /\\_/\\
  ( o.o )
@@ -32,7 +32,7 @@ export default function Home() {
         </div>
 
         <p className="home-release">First Release: <strong>June 1, 2026</strong></p>
-      </div>
+      </header>
 
       <hr />
 

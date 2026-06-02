@@ -5,8 +5,9 @@ import Footer from './Footer'
 export default function Layout() {
   return (
     <div className="app-layout">
+      <a href="#main-content" className="skip-link">Skip to main content</a>
       <Navbar />
-      <main className="app-main">
+      <main id="main-content" className="app-main">
         <Outlet />
       </main>
       <Footer />

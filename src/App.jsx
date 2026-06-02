@@ -8,7 +8,7 @@ import MemorySystem from './pages/MemorySystem'
 import ProjectAwareness from './pages/ProjectAwareness'
 import ToolSystem from './pages/ToolSystem'
 import Roadmap from './pages/Roadmap'
-import ContactFAQ from './pages/ContactFAQ'
+import ContactPage from './pages/ContactPage'
 import './App.css'
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         <Route path="/project-awareness" element={<ProjectAwareness />} />
         <Route path="/tool-system" element={<ToolSystem />} />
         <Route path="/roadmap" element={<Roadmap />} />
-        <Route path="/contact" element={<ContactFAQ />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Route>
     </Routes>
   )

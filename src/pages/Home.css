@@ -67,6 +67,12 @@
   text-decoration: none;
 }
 
+.home-link:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px var(--accent);
+}
+
 .home-release {
   font-size: 0.9rem;
   color: var(--text-light);
