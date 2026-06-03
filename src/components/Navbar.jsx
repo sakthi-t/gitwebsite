@@ -10,6 +10,7 @@ const docsLinks = [
   { to: '/memory-system', label: 'Memory System' },
   { to: '/project-awareness', label: 'Project Awareness' },
   { to: '/tool-system', label: 'Tool System' },
+  { to: '/mcp', label: 'MCP' },
 ]
 
 export default function Navbar() {
@@ -167,6 +168,7 @@ export default function Navbar() {
           </li>
 
           <li><NavLink to="/roadmap" className="nav-link" onClick={closeMobile}>Roadmap</NavLink></li>
+          <li><NavLink to="/history" className="nav-link" onClick={closeMobile}>History</NavLink></li>
           <li><NavLink to="/contact" className="nav-link" onClick={closeMobile}>Contact</NavLink></li>
 
           <li className="nav-search-mobile">

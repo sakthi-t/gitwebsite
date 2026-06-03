@@ -1,4 +1,5 @@
 import ReactMarkdown from 'react-markdown'
+import rehypeRaw from 'rehype-raw'
 
 function slugify(text) {
   return text
@@ -32,6 +33,7 @@ export default function MarkdownPage({ content }) {
   return (
     <div className="markdown-page">
       <ReactMarkdown
+        rehypePlugins={[rehypeRaw]}
         components={{
           h1: (props) => <HeadingRenderer level={1} {...props} />,
           h2: (props) => <HeadingRenderer level={2} {...props} />,

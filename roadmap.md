@@ -27,14 +27,26 @@ All phases through the current release are implemented and stable:
 
 Features planned for upcoming releases:
 
-### MCP (Model Context Protocol) Support
+### MCP (Model Context Protocol) Support 🚧 In Progress
 
-Integrate with Anthropic's Model Context Protocol to allow Haney to connect to external tools and data sources through a standardized interface. This would enable:
+MCP support is available as a beta feature with 8 pre-configured servers ready to use. Run `/mcp` to see the full list, or visit the [MCP docs](/mcp) for details.
 
-- Database connections
-- API integrations
-- External service queries
-- Custom tool servers
+**Already shipped:**
+
+- ✅ GitHub (OAuth PAT) — repository and issue operations
+- ✅ DuckDuckGo — privacy-respecting web search
+- ✅ Stack Overflow — Q&A reference
+- ✅ MDN Web Docs — web documentation
+- ✅ Filesystem — safe file operations
+- ✅ Sequential Thinking — multi-step reasoning
+- ✅ LangChain — chaining workflows
+- ✅ Playwright — browser automation
+
+**Planned additions:**
+
+- Database connectors (PostgreSQL, SQLite)
+- Custom user-defined tool servers
+- Additional API integrations
 
 ### Autonomous Agent Workflows
 
@@ -56,6 +68,16 @@ Expand beyond Exa to support:
 
 Each provider would be selectable via `search_provider` in config.json.
 
+### Git Integration
+
+Deep Git awareness:
+
+- ✅ Automatic commit message generation
+- ✅ PR review and summarization
+- ✅ Diff-aware editing
+- ✅ Branch-aware context
+- ✅ Changelog generation
+
 ### Improved Session Restoration
 
 Allow users to resume previous sessions:
@@ -65,16 +87,6 @@ Allow users to resume previous sessions:
 - Continue where they left off
 
 ## Medium-Term
-
-### Git Integration
-
-Deep Git awareness:
-
-- Automatic commit message generation
-- PR review and summarization
-- Diff-aware editing
-- Branch-aware context
-- Changelog generation
 
 ### Voice Input
 

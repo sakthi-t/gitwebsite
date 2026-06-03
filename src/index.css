@@ -193,7 +193,229 @@ hr {
   }
 }
 
+/* ── MCP Server Cards ── */
+.server-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  margin: 1.25rem 0;
+}
+
+.server-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem 1rem 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  transition: border-color 0.2s;
+}
+
+.server-card:hover {
+  border-color: var(--accent);
+}
+
+.server-num {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--accent-light);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.server-name {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.server-auth {
+  font-size: 0.7rem;
+  font-weight: 600;
+  display: inline-block;
+  width: fit-content;
+  padding: 0.15em 0.55em;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
+
+.auth-oauth {
+  background: #FDF2E0;
+  color: #8B6914;
+}
+
+.auth-none {
+  background: #E8EDE0;
+  color: #4A6B3A;
+}
+
+.server-desc {
+  font-size: 0.72rem;
+  color: var(--text-light);
+  margin-top: 0.1rem;
+  line-height: 1.3;
+}
+
+.server-ns {
+  font-size: 0.72rem;
+  margin-top: 0.15rem;
+  word-break: break-all;
+}
+
+.server-new {
+  border-left: 3px solid var(--accent);
+}
+
+/* ── Improvements Grid ── */
+.improvements-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin: 0.75rem 0;
+}
+
+.improvement-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  padding: 0.5rem 0.65rem;
+  background: var(--code-bg);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.improvement-icon {
+  flex-shrink: 0;
+  font-size: 0.95rem;
+  margin-top: 0.05rem;
+}
+
+@media (max-width: 900px) {
+  .server-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .server-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Release History Cards ── */
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.release-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem 1.5rem;
+  transition: border-color 0.2s;
+}
+
+.release-card:hover {
+  border-color: var(--accent);
+}
+
+.release-latest {
+  border-color: var(--accent);
+  border-width: 1.5px;
+}
+
+.release-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.release-badge {
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.15em 0.6em;
+  border-radius: 999px;
+}
+
+.release-tag {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.release-date {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  margin-left: auto;
+}
+
+.release-title {
+  font-size: 1.15rem;
+  margin: 0 0 0.75rem;
+  color: var(--text);
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.release-body {
+  font-size: 0.95rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.release-body h3 {
+  font-size: 1rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.release-body ul {
+  margin: 0.5rem 0;
+  padding-left: 1.25rem;
+}
+
+.release-body ul li {
+  margin-bottom: 0.2rem;
+}
+
+.release-body .release-stats {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--text-light);
+}
+
+.release-body .release-stats code {
+  background: var(--code-bg);
+  padding: 0.1em 0.4em;
+  font-size: 0.76rem;
+}
+
 @media (max-width: 768px) {
+  .release-card {
+    padding: 1rem 1.1rem 1.1rem;
+  }
+
+  .release-date {
+    margin-left: 0;
+    width: 100%;
+    order: 3;
+  }
+
   :root {
     font-size: 16px;
   }

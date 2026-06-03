@@ -40,6 +40,16 @@ const searchIndex = [
     terms: ['tool', 'system', 'file', 'tools', 'shell', 'read', 'write', 'edit', 'rename', 'trash', 'restore', 'execute', 'whitelist', 'blacklist', 'permission', 'approval', 'sandboxing', 'safety'],
   },
   {
+    title: 'MCP',
+    route: '/mcp',
+    terms: ['mcp', 'model', 'context', 'protocol', 'servers', 'github', 'duckduckgo', 'stack', 'overflow', 'mdn', 'filesystem', 'sequential', 'thinking', 'langchain', 'playwright', 'json-rpc', 'stdio', 'transport', 'tools', 'namespaces', 'security', 'oauth', 'commands', 'connect', 'disconnect', 'status', 'architecture'],
+  },
+  {
+    title: 'History',
+    route: '/history',
+    terms: ['history', 'release', 'changelog', 'version', 'v0.1.0', 'v0.1.1', 'v0.1.2', 'v0.1.3', 'initial', 'mcp', 'servers', 'github', 'stackoverflow', 'duckduckgo', 'playwright', 'expansion', 'git', 'commands'],
+  },
+  {
     title: 'Roadmap',
     route: '/roadmap',
     terms: ['roadmap', 'completed', 'short-term', 'medium-term', 'long-term', 'mcp', 'autonomous', 'agent', 'search', 'providers', 'session', 'restoration', 'git', 'voice', 'plugin', 'multi-modal', 'collaborative', 'ide', 'local-first', 'debugging', 'contributing'],
