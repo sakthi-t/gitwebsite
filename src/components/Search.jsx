@@ -42,7 +42,7 @@ const searchIndex = [
   {
     title: 'MCP',
     route: '/mcp',
-    terms: ['mcp', 'model', 'context', 'protocol', 'servers', 'github', 'duckduckgo', 'stack', 'overflow', 'mdn', 'filesystem', 'sequential', 'thinking', 'langchain', 'playwright', 'json-rpc', 'stdio', 'transport', 'tools', 'namespaces', 'security', 'oauth', 'commands', 'connect', 'disconnect', 'status', 'architecture'],
+    terms: ['mcp', 'model', 'context', 'protocol', 'servers', 'github', 'duckduckgo', 'stack', 'overflow', 'mdn', 'filesystem', 'sequential', 'thinking', 'langchain', 'playwright', 'tavily', 'notion', 'json-rpc', 'stdio', 'transport', 'tools', 'namespaces', 'security', 'oauth', 'api', 'key', 'token', 'integration', 'commands', 'connect', 'disconnect', 'status', 'architecture'],
   },
   {
     title: 'History',

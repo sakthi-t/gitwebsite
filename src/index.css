@@ -251,6 +251,16 @@ hr {
   color: #4A6B3A;
 }
 
+.auth-apikey {
+  background: #E8E4F0;
+  color: #4B3A6B;
+}
+
+.auth-token {
+  background: #F0E4E8;
+  color: #6B3A4A;
+}
+
 .server-desc {
   font-size: 0.72rem;
   color: var(--text-light);

@@ -29,6 +29,10 @@ Share them with the community.
 
 ## Contact
 
+### Email
+
+[help@codehaney.dev](mailto:help@codehaney.dev)
+
 ### Contact Form
 
 Use the contact form on the [Contact page](/contact) to send a message.

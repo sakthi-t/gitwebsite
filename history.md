@@ -2,11 +2,72 @@
 
 All notable changes to Haney CLI.
 
+Haney evolves one release at a time — each version ships a focused set of features, improvements, and bug fixes. Here's the journey so far.
+
 <div class="history-list">
 
 <div class="release-card release-latest">
   <div class="release-header">
     <span class="release-badge">Latest</span>
+    <span class="release-tag">v0.1.4</span>
+    <span class="release-date">June 7, 2026</span>
+  </div>
+  <h3 class="release-title">Tavily Search &amp; Notion MCP — 10-Server Architecture</h3>
+  <div class="release-body">
+
+### New MCP Servers (2 added — 10 total)
+
+<div class="server-grid">
+  <div class="server-card server-new">
+    <span class="server-num">9</span>
+    <span class="server-name">Tavily</span>
+    <span class="server-auth auth-apikey">API Key</span>
+    <span class="server-desc">AI-optimized web search via mcp-remote</span>
+  </div>
+  <div class="server-card server-new">
+    <span class="server-num">10</span>
+    <span class="server-name">Notion</span>
+    <span class="server-auth auth-token">Integration Token</span>
+    <span class="server-desc">Pages, databases, comments &amp; user lookup</span>
+  </div>
+</div>
+
+### Key Improvements
+
+<div class="improvements-grid">
+  <div class="improvement-item">
+    <span class="improvement-icon">🔍</span>
+    <div><strong>Tavily Search MCP</strong> — AI-optimized web search via mcp-remote HTTP transport. Supports <code>search</code> with configurable depth and <code>fetch</code> for raw content extraction. Connect with <code>/mcp connect tavily</code>.</div>
+  </div>
+  <div class="improvement-item">
+    <span class="improvement-icon">📓</span>
+    <div><strong>Notion MCP</strong> — Full workspace integration. Search pages, query databases, create/edit blocks, manage comments, and fetch user info. Authenticate with <code>/mcp login notion</code>.</div>
+  </div>
+  <div class="improvement-item">
+    <span class="improvement-icon">🧩</span>
+    <div><strong>Dual transport support</strong> — stdio (local subprocess) and mcp-remote (HTTP) transports now coexist. Tavily and Stack Overflow use mcp-remote; all others use stdio.</div>
+  </div>
+  <div class="improvement-item">
+    <span class="improvement-icon">🎨</span>
+    <div><strong>Auth badge styling</strong> — new <code>API Key</code> and <code>Integration Token</code> badges in the MCP server grid for visual clarity.</div>
+  </div>
+  <div class="improvement-item">
+    <span class="improvement-icon">📖</span>
+    <div><strong>Docs site updates</strong> — MCP page now reflects all 10 servers with accurate diagrams. History page tracks every release.</div>
+  </div>
+  <div class="improvement-item">
+    <span class="improvement-icon">🐛</span>
+    <div><strong>Bug fix</strong> — Contact email corrected to <code>help@codehaney.dev</code> across docs and footer.</div>
+  </div>
+</div>
+
+<div class="release-stats">18 files changed · 1,420 insertions · 840 deletions · <code>e912a7c</code></div>
+
+  </div>
+</div>
+
+<div class="release-card">
+  <div class="release-header">
     <span class="release-tag">v0.1.3</span>
     <span class="release-date">June 3, 2026</span>
   </div>

@@ -24,6 +24,21 @@
   font-style: italic;
 }
 
+.contact-email {
+  margin: 0.6rem 0 0;
+}
+
+.contact-email a {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.contact-email a:hover {
+  text-decoration: underline;
+}
+
 .contact-section {
   margin-bottom: 1rem;
 }

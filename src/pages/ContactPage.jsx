@@ -176,6 +176,9 @@ export default function ContactPage() {
         <p className="contact-note">
           For Haney-related issues, please describe the problem clearly and include screenshots if possible.
         </p>
+        <p className="contact-email">
+          <a href="mailto:help@codehaney.dev">help@codehaney.dev</a>
+        </p>
       </header>
 
       {/* About Section */}
